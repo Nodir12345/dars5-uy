@@ -507,6 +507,10 @@ body {
   padding-left: 125px;
 }
 
+.herro {
+  background-color: #293039;
+}
+
 .herro__title {
   font-weight: 900;
   font-size: 40px;
@@ -525,7 +529,6 @@ body {
 }
 
 .herro__box {
-  background-color: #293039;
   max-width: 1280px;
   height: 474px;
   position: relative;
@@ -551,4 +554,79 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+p {
+  margin: 0;
+}
+
+.country__tittle {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888F;
+  font-family: "Fraunces", serif;
+  padding-bottom: 72px;
+  margin-left: 80px;
+}
+
+.country__list__title {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  font-family: "Fraunces", serif;
+  color: #333D4B;
+  padding-bottom: 15px;
+}
+
+.country__list__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+  margin-bottom: 3px;
+}
+
+.country__list::before {
+  content: "";
+  background-image: url("/dars5/img/country__sevda.svg");
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 45px;
+}
+
+.country__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.country__list2, .country__list3 {
+  margin-left: 150px;
+}
+
+.country__list2::before {
+  content: "";
+  background-image: url("/dars5/img/sevda2.svg");
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 45px;
+}
+
+.country__list3::before {
+  content: "";
+  background-image: url("/dars5/img/sevda3.svg");
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 45px;
+}
+
+.country__list {
+  margin-left: 50px;
 }/*# sourceMappingURL=main.css.map */
