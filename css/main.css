@@ -505,4 +505,50 @@ body {
 
 .our__content {
   padding-left: 125px;
+}
+
+.herro__title {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #FEFCF7;
+  padding-bottom: 22px;
+}
+
+.herro__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+  opacity: 0.8;
+  width: 500px;
+}
+
+.herro__box {
+  background-color: #293039;
+  max-width: 1280px;
+  height: 474px;
+  position: relative;
+  margin-top: 256px;
+  margin-bottom: 168px;
+}
+
+.herro__content {
+  padding-top: 88px;
+  padding-left: 85px;
+  font-family: "Fraunces", serif;
+}
+
+.herro__img {
+  max-width: 445px;
+  height: 474px;
+  position: absolute;
+  right: 13%;
+  top: -15%;
+}
+
+.herro__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }/*# sourceMappingURL=main.css.map */
